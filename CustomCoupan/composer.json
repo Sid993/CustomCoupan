@@ -1,0 +1,22 @@
+{
+    "name": "test/module-customcoupan",
+    "description": "",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "sauravsidharth993@gamil.com",
+            "name": "Saurav Kumar"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Test_CustomCoupan": ""
+        }
+    }
+}
